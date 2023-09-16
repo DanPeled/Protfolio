@@ -1,0 +1,22 @@
+#projects {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    grid-gap: 25px;
+    justify-items: center;
+}
+
+.project-text{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255,255,255,.50);
+}
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
